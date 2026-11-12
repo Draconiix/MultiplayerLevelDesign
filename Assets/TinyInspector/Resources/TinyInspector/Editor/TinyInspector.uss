@@ -1,0 +1,765 @@
+:root{
+    --header: rgba(0,0,0,0.15);
+    --border: rgba(28,28,28,1);
+    --main-text: rgba(1,1,1,1);
+    --sec-text: rgba(1,1,1,1);
+}
+.unity-theme-light :root {
+    --border: rgba(161,161,161,1);
+}
+
+/* ====================================================================== */
+/* GROUP: MONOSCRIPT / GENERAL VARIABLES */
+/* ====================================================================== */
+
+.Monoscript{
+    padding: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px ;
+    border-width: 1px;
+    border-color: var(--border);
+    margin: 0px;
+}
+
+/* ====================================================================== */
+/* GROUP: BOXS / GROUPS / FOLDOUT / REORDERABLE / DRAG HANDLE (GROUPS)
+   These selectors affect BoxHeaders, BoxContent, Foldouts, Reorderable lists
+   and other grouped UI elements used by group-like attributes.
+   (Moved into GROUPS for clarity.)
+*/
+/* ====================================================================== */
+
+.BoxHeader{
+    padding: 0px;
+    min-height: 24px;
+    max-height: 24px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    flex-grow: 1;
+    color: #ffffff;
+    -unity-font-style: bold;
+    border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;
+    border-left-color: var(--border); border-right-color: var(--border); border-top-color: var(--border);  border-bottom-color: var(--border);
+    background-color: var(--header); 
+    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.BoxHeaderRounded{
+        border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 2px;
+}
+
+
+.BoxHeaderIcon{
+        width: 20px;
+    height: 20px;
+    margin: 0px;
+    margin-left: 2px;
+    margin-top: 0.3px;
+    align-self: center; 
+    border-color: var(--border); 
+}
+.BoxFoldoutIcon{ 
+        width: 25px;
+    height: 14px;
+    padding: 5px;
+    align-self: center; 
+    border-color: var(--border); 
+    border-left-width: 0px;
+    font-size:  9px;
+    opacity: 1;
+}
+.FoldoutCountLabel{
+    margin-right: 4px;
+    font-size:  10px;
+    opacity: 0.6;
+}
+.FoldoutAddButton{
+    height: 20px;
+    width: 26px;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    border-width: 0px;
+    border-left-width: 1px;
+     border-color: var(--border);
+     align-items: center;
+}
+.ReorderableLabel{
+    height: 22px;
+    padding: 0px;
+    padding-left: 5px;
+    margin: 0px;
+    border-width: 0px;
+    border-left-width: 1px;
+    -unity-text-align: middle-left;
+}
+
+.ReorderDeleteButton{
+    height: 20px;
+    width: 26px;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    border-width: 0px;
+    border-left-width: 1px;
+     border-color: var(--border);
+     opacity:0.6;
+     align-items: center;
+}
+.reorderableContainer{
+    border-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+     border-color: var(--border);
+     padding: 0px;
+     
+        border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 4px;
+}
+.ReorderableRow{
+        border-bottom-width: 1px;
+     border-color: var(--border);
+     min-height: 26px;
+     margin: 0px;
+}
+
+.ReorderablePropertyField, .ReorderablePropertyField .unity-base-field{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}.ReorderablePropertyField{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+.DragHandle{
+    width: 25px;
+    min-height: 25px;
+    padding: 3px;
+    border-width: 0px;
+    border-right-width: 1px;
+     border-color: var(--border);
+}
+
+.DragHandleImage{
+    height: 20px;
+    width: 20px;
+    opacity:0.8;
+}
+
+.BoxContent{
+    padding: 4px 4px 4px 4px;
+    margin: 0 0 2px 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left-width: 1px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px;
+    border-left-color: var(--border); border-right-color: var(--border); border-bottom-color: var(--border);
+    background-color: transparent;
+}
+
+/*
+.BoxContent .BoxContent { background-color: rgba(0,0,0,0.03); }
+.BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.06); }
+.BoxContent .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.09); }
+.BoxContent .BoxContent .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.12); }
+
+.unity-theme--light .BoxHeader, .unity-theme-light .BoxHeader {
+    background-color: #f0f0f0; 
+    color: #111111;
+    border-left-color: rgba(0,0,0,0.12); border-right-color: rgba(0,0,0,0.12); border-top-color: rgba(0,0,0,0.12);  border-bottom-color: rgba(0,0,0,0.12);
+}
+
+.unity-theme--light .BoxContent .BoxContent { background-color: rgba(0,0,0,0.02); }
+.unity-theme--light .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.04); }
+.unity-theme--light .BoxContent .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.06); }
+.unity-theme--light .BoxContent .BoxContent .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.08); }
+
+.unity-theme--dark .BoxHeader, .unity-theme-dark .BoxHeader {
+    background-color: rgba(0,0,0,0.35); 
+    color: #ffffff;
+    border-left-color: var(--border); border-right-color: var(--border); border-top-color: var(--border);  border-bottom-color: var(--border);
+}
+
+.unity-theme--dark .BoxContent .BoxContent { background-color: rgba(0,0,0,0.04); }
+.unity-theme--dark .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.08); }
+.unity-theme--dark .BoxContent .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.12); }
+.unity-theme--dark .BoxContent .BoxContent .BoxContent .BoxContent .BoxContent { background-color: rgba(0,0,0,0.16); }*/
+
+/* ====================================================================== */
+/* GROUP: TABBAR / TABS */
+/* ====================================================================== */
+
+.TabBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.TabHeader{
+    
+    -unity-font-style: bold;
+    background-color: rgba(0,0,0,0.25); /* slightly lighter tabs */
+    color: #fff;
+    align-self: center;
+}
+.TabHeader *{
+   
+    align-self: center;
+}
+
+.TabHeaderSelected{
+    border-bottom-color: rgba(0,0,0,0);
+    background-color: transparent; /* keep selected appearance from USS elsewhere or inherit */
+}
+
+.TabContent{
+    padding-top: 6px;
+}
+
+/*
+.unity-theme--light .TabHeader, .unity-theme-light .TabHeader {
+    background-color: #f5f5f5; 
+    color: #111111;
+}
+.unity-theme--light .TabHeaderSelected, .unity-theme-light .TabHeaderSelected {
+    background-color: transparent;
+}
+
+.unity-theme--dark .TabHeader, .unity-theme-dark .TabHeader {
+    background-color: rgba(0,0,0,0.25);
+    color: #fff;
+}
+.unity-theme--dark .TabHeaderSelected, .unity-theme-dark .TabHeaderSelected {
+    background-color: transparent;
+}*/
+
+/* ====================================================================== */
+/* GROUP: BUTTONS / MISC */
+/* ====================================================================== */
+
+.TinyButton{
+    height: 30px;
+}
+
+/* Monoscript icon buttons: square, full-height, adjacent */
+.Monoscript .ScriptEditButton, .Monoscript .ScriptDocButton {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: transparent;
+    border-width: 0px; /* default no border between buttons */
+}
+
+/* Add a left separator between the text area and the buttons by adding a left border to both buttons */
+.Monoscript .ScriptEditButton, .Monoscript .ScriptDocButton {
+    border-left-width: 1px;
+    border-left-color: var(--border);
+}
+
+/* Slight hover feedback (subtle background only) */
+.Monoscript .ScriptEditButton:hover, .Monoscript .ScriptDocButton:hover {
+    background-color: rgba(255,255,255,0.02);
+}
+
+/* Icon sizing inside the button */
+.Monoscript .ScriptEditButton .unity-text-element, .Monoscript .ScriptDocButton .unity-text-element,
+.Monoscript .ScriptEditButton .unity-image, .Monoscript .ScriptDocButton .unity-image {
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+}
+
+/* ====================================================================== */
+/* GROUP: ENUM TOGGLE */
+/* ====================================================================== */
+
+.InlineProperty .unity-property-field__label{
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+/* EnumToggle styles */
+.EnumToggleButton {
+    height: 20px;
+    margin: 0px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: #585858;
+    color: #ffffff;
+}
+.EnumToggleButtonSelected {
+    background-color: rgba(34,111,204,1); /* blue highlight for selected */
+    color: #ffffff;
+}
+.EnumToggleContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2px 0px 0px 0px;
+}
+
+/* ====================================================================== */
+/* GROUP: LAYOUT / ROWS / COLUMNS */
+/* ====================================================================== */
+
+.LayoutRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Apply gap only to direct children that are .LayoutColumn, and remove on the last such child */
+.LayoutRow > .LayoutColumn {
+    margin-right: 6px;
+}
+.LayoutColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ====================================================================== */
+/* GROUP: TOGGLE SWITCH (IMGUI/UIElements switch control) */
+/* ====================================================================== */
+
+/* Toggle switch styling */
+.ToggleSwitch {
+    padding: 2px;
+    border-radius: 6px;
+    border-width: 1px;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    background-color: transparent;
+    border-color: rgba(0,0,0,0.12);
+}
+.ToggleSwitch .ToggleLabel {
+    flex: 1 1 auto;
+    padding: 4px 8px;
+    -unity-font-style: bold; 
+    transition: background-color 0.12s, color 0.12s, opacity 0.12s;
+}
+
+ 
+/* Ensure overall rounded look and subtle border */
+.ToggleSwitch, .ToggleSwitch .ToggleLabel {
+    border-radius: 6px;
+}
+
+/* Light theme overrides */
+.unity-theme--light .ToggleSwitch, .unity-theme-light .ToggleSwitch {
+    background-color: transparent;
+    border-color: rgba(0,0,0,0.08);
+}
+
+/* Dark theme overrides */
+.unity-theme--dark .ToggleSwitch, .unity-theme-dark .ToggleSwitch {
+    background-color: transparent;
+    border-color: rgba(255,255,255,0.06);
+}
+
+/* ====================================================================== */
+/* GROUP: SWITCH (the custom SwitchAttribute drawer styling) */
+/* ====================================================================== */
+
+/* Switch control styles (for UIElements usage) */
+.SwitchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #202020;
+    background-color: rgba(0,0,0,0.12); /* default container background */
+    overflow: hidden;
+}
+
+.SwitchContainer .SwitchText {
+    flex: 1 1 0;
+    padding: 2px 8px;
+    border-radius: 0px;
+    background-color: transparent; /* inner labels transparent */
+    color: #585858; /* neutral gray text */
+    -unity-text-align: middle-center;  
+    border-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: transparent;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    font-size: 10px;
+    
+}
+
+.SwitchContainer .SwitchText.RightLabel{
+    border-left-width: 1px;
+}
+.SwitchContainer .SwitchText.LeftLabel{
+    border-right-width: 1px;
+}
+.SwitchContainer.ActiveSwitchOn  .SwitchText.LeftLabel{
+    color: #ffffff;
+}
+
+/* Container active states: change entire container background */
+.SwitchContainer.ActiveSwitchOff {
+    background-color: rgba(34,34,34,1); /* dark gray when Off selected */
+}
+
+.SwitchContainer.ActiveSwitchOn {
+    background-color: #0f80be; /* blue active for On */
+    border-color: #202020
+
+}
+
+/* Make text white when container is ActiveSwitchOn */
+.SwitchContainer.ActiveSwitchOn .SwitchText {
+    /*color: #ffffff !important;*/
+}
+
+/* Selected label overlay */
+.SwitchContainer .SelectedLabel {
+    border-radius: 2px;
+    background-color: #ff0000;
+    border-color: #000000; 
+}
+
+.unity-theme--light .SwitchContainer .SelectedLabel, .unity-theme-light .SwitchContainer .SelectedLabel {
+    background-color: rgba(0,0,0,0.06); /* subtle dark overlay for light theme */
+}
+
+/* ====================================================================== */
+/* GROUP: PREVIEW BOX */
+/* ====================================================================== */
+
+/* Preview box similar to helpbox */
+.PreviewBox {
+    padding: 0px;
+    margin: 2px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: var(--border);
+    background-color: rgba(0,0,0,0.06);
+    overflow: hidden;
+}
+
+.unity-theme--light .PreviewBox, .unity-theme-light .PreviewBox {
+    background-color: #f3f3f3;
+    border-color: rgba(0,0,0,0.08);
+}
+
+.unity-theme--dark .PreviewBox, .unity-theme-dark .PreviewBox {
+    background-color: rgba(0,0,0,0.12);
+    border-color: rgba(255,255,255,0.06);
+}
+
+/* Inner preview image should fit and preserve aspect */
+.PreviewBox > .PreviewImage {
+    width: 100%;
+    height: 100%; 
+}
+
+/* ====================================================================== */
+/* GROUP: INFOBOX / MESSAGES */
+/* ====================================================================== */
+
+/* TinyInspector InfoBox message truncation and compatibility */
+.InfoBoxMessage {
+    font-size:  9px;
+    height:  12px !important;    /* fixed height */
+    white-space: normal; /* allow wrapping */
+    overflow: hidden;    /* clip overflow */
+    text-overflow: ellipsis; /* show ellipsis when clipped */
+}
+
+/* Ensure title class compatibility */
+.InfoBoxTitle {
+    -unity-font-style: bold;
+}
+
+/* Ensure container compatibility */
+.InfoBox {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0px;
+    margin-bottom: 2px;
+
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.InfoBoxIconBox{
+    border-radius: 0px 3px 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0;
+    border-width: 0;
+    border-radius: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-color: var(--border);
+    /* made slightly lighter by reducing overlay alpha */
+    background-color: rgba(255,255,255,0.06);
+
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.InfoBoxIconBox .unity-text-element{
+    display: none;
+
+}
+
+/* ====================================================================== */
+/* GROUP: MISC / UTILITY */
+/* ====================================================================== */
+
+.InlineProperty .unity-property-field__label{
+    font-size: 10px;
+}
+
+/* Layout group spacing */
+
+/* Layout group spacing */
+.LayoutRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Apply gap only to direct children that are .LayoutColumn, and remove on the last such child */
+.LayoutRow > .LayoutColumn {
+    margin-right: 6px;
+} 
+.LayoutColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+/* End of file */
+
+/* ====================================================================== */
+/* EDITOR STYLES */
+/* ====================================================================== */
+.CodePreviewText{
+    margin: 0px;
+    padding: 0px;
+}
+.ButtonShowcaseTop{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ButtonShowcaseMiddle{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 0px;
+}
+.ButtonShowcaseBottom
+{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+.TinyCustomLabelFixer
+{
+    width: 42% !important;
+    }
+
+    .ButtonBoxParameters{
+     background-color: rgba(1,0,0,0.12);
+     margin-left: 3px;
+     margin-right: 3px;
+     border-left-width: 1px;
+     border-right-width: 1px;
+     border-bottom-width: 1px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-color: var(--border);
+        padding: 2px 2px;
+    }
+
+    .AttributeButtonWithValues{
+        margin-bottom: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+/* ====================================================================== */
+/* GROUP: TABLE LIST */
+/* ====================================================================== */
+
+.tableListContainer{
+    border-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: var(--border);
+    padding: 0px;
+
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 4px;
+}
+
+.TableListHeaderRow{
+    min-height: 22px;
+    border-bottom-width: 1px;
+    border-color: var(--border);
+    background-color: rgba(0,0,0,0.08);
+}
+
+.TableListHeaderCell{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 10px;
+    -unity-font-style: bold;
+    opacity: 0.85;
+
+    border-left-width: 1px;
+    border-color: var(--border);
+}
+
+.TableListHandleHeader{
+    width: 26px;
+    min-height: 22px;
+    border-right-width: 1px;
+    border-color: var(--border);
+}
+
+.TableListActionsHeader{
+    width: 26px;
+    min-height: 22px;
+    border-left-width: 1px;
+    border-color: var(--border);
+}
+
+.TableListRow{
+    border-bottom-width: 1px;
+    border-color: var(--border);
+    min-height: 26px;
+    margin: 0px;
+}
+
+.TableListCell{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.TableListCellField, .TableListCellField .unity-base-field{
+    margin: 0px;
+    padding: 0px;
+}
+
+.TableListCellField{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.TableListFallbackElement, .TableListFallbackElement .unity-base-field{
+    margin: 0px;
+    padding: 0px;
+}
+
+.TableListFallbackElement{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.TableListBorderHelper{
+    border-right-width: 1px;
+    border-right-color: var(--border);
+    padding: 0px;
+    margin: 0px;
+}
+.TableListHeader{
+    border-bottom-width: 1px;
+    border-bottom-color: var(--border);
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+/* Tiny Icon Window */
+.IconPreviewIcon {
+    width: 48px;
+    height: 48px;
+    
+    border-width: 1px;
+    border-radius: 3px;
+    margin-left: 6px
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TinyToolbar{
+    height: 32px;
+}
+.TinyToolbarButton{
+    height: 31px;
+    padding: 3px;
+    margin: 0px;
+     -unity-text-align: middle-center;
+}
+.TinyToolbarField{
+    height: 19px;
+    margin: 6px 0px;
+     -unity-text-align: middle-center;
+}
+
+    /*#PreviewContainer{
+        min-height: 400px;
+
+    }*/

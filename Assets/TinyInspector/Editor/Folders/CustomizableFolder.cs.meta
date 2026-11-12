@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dba52de961399b54d8f721e4b8b618d7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Editor/Folders/CustomizableFolder.cs
+  uploadId: 878536

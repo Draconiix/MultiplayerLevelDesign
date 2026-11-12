@@ -829,7 +829,25 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: EVO_UI
+    EmbeddedLinux: EVO_UI
+    GameCoreScarlett: EVO_UI
+    GameCoreXboxOne: EVO_UI
+    Kepler: EVO_UI
+    LinuxHeadlessSimulation: EVO_UI
+    Nintendo Switch: EVO_UI
+    Nintendo Switch 2: EVO_UI
+    PS4: EVO_UI
+    PS5: EVO_UI
+    QNX: EVO_UI
+    Standalone: EVO_UI;ALLIN1_URP
+    VisionOS: EVO_UI
+    WebGL: EVO_UI
+    Windows Store Apps: EVO_UI
+    XboxOne: EVO_UI
+    iPhone: EVO_UI
+    tvOS: EVO_UI
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

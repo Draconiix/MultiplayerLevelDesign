@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 49433610fa7cbfc4b84a4e0a7eb6077d
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/AllIn13DShaderAssembly.asmdef
+  uploadId: 1035260

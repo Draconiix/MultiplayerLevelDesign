@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2a16afe86d57af14d853d87a316bb6af
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_URP_DepthNormalsPass.hlsl
+  uploadId: 1035260

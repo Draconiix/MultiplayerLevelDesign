@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9cc0d2b89b18f694294b501eae51ae61
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Helpers/TInyDictionary.cs
+  uploadId: 878536

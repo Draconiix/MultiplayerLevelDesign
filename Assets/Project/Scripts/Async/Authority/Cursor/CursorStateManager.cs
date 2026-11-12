@@ -25,7 +25,7 @@ namespace LevelDesign.Async.Auth
 
         private void Awake()
         {
-            if (Instance != null && Instance != this) { Destroy(this); }
+            if (Instance != null && Instance != this) { Destroy(this); return; }
         
             Instance = this;
         }
@@ -65,5 +65,10 @@ namespace LevelDesign.Async.Auth
             }
         }
         #endregion
+
+        private void OnDestroy()
+        {
+            if (Instance == this) { Instance = null; }
+        }
     }
 }

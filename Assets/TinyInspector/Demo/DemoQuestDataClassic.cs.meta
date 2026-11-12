@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5b184f077785d1746a15f0695047ca27
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Demo/DemoQuestDataClassic.cs
+  uploadId: 878536

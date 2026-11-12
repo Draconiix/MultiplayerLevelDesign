@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c9751969e1c0dfa40b7e9472800018d8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/Editor/MaterialPresets/MaterialPreset_Basic.asset
+  uploadId: 1035260

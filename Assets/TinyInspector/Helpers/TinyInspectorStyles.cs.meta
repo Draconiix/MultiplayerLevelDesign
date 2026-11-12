@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bb644ca6d5e154b4ba0eb8513ceb58e8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Helpers/TinyInspectorStyles.cs
+  uploadId: 878536

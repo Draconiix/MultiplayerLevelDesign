@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6013f160864ef74b86ace97be931f56, type: 3}
+  m_Name: ViewModelMovement
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDesign.Data.ViewModelMovementSO
+  swayAmount: 0.01
+  swayTilt: 4
+  swayInputScale: 0.05
+  swaySmooth: 8
+  bobAmount: 0.01
+  bobSpeed: 1.3
+  bobBlendSpeed: 6
+  bobReferenceSpeed: 5
+  bobMaxScale: 1
+  bobPitch: 0.6
+  bobYaw: 0.6
+  bobRoll: 1.2
+  breathAmount: 0.003
+  breathSpeed: 0.35
+  airTiltPerSpeed: 0.5
+  airTiltMax: 3
+  airTiltSmooth: 6
+  airOffset: 0.015
+  landKickPerSpeed: 0.03
+  landDrop: 0.03
+  landPitch: 4
+  landSnappiness: 18
+  landReturn: 7
+  kickBack: 0.04
+  kickPitch: 2
+  kickSnappiness: 25
+  kickReturn: 10
+  recoilUp: 3
+  recoilSide: 1
+  sideRampShots: 1
+  sprayResetTime: 0.25
+  recoilSnappiness: 20
+  recoilReturn: 4

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abf32d582fa033442845f5d87e1c3f6c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Resources/TinyInspector/TinyInspectorSettings.asset
+  uploadId: 878536

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6d90d00777f2b2c4aba7435486649d29
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Editor/Drawers/MultilineTextAreaDrawer.cs
+  uploadId: 878536

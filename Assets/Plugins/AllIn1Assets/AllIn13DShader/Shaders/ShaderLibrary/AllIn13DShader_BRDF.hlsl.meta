@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 74175fd904f51524a98c26b21f7f09c9
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_BRDF.hlsl
+  uploadId: 1035260

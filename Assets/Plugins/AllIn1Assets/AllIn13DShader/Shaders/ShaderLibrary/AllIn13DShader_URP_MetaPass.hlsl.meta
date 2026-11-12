@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4295596767a4cf740b0b98f6a907e7c2
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_URP_MetaPass.hlsl
+  uploadId: 1035260

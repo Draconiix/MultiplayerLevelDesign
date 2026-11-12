@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4eefa52ed54551243aaef0e6547e305a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/Demo/Materials/Presets/MAT_Spitter_Node.mat
+  uploadId: 1035260

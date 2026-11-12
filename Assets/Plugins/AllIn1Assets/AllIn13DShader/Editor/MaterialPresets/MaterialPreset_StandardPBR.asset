@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19682f4a38d58cf4586d7f91ef07d717, type: 3}
+  m_Name: MaterialPreset_StandardPBR
+  m_EditorClassIdentifier: 3DShaderCommonsAssembly.Editor::AllIn1Assets.ShaderCommons3D.MaterialPreset
+  id: standard_pbr
+  displayName: Standard PBR
+  material: {fileID: 2100000, guid: fed1698affe6c124c8eece7c36b256f0, type: 2}
+  materialModifiable: 0

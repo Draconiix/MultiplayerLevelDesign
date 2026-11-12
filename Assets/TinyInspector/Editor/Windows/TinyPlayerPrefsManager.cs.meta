@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f2053252c0f13b944af83f0f5d5e0eb4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Editor/Windows/TinyPlayerPrefsManager.cs
+  uploadId: 878536

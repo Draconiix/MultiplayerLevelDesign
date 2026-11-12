@@ -10,16 +10,31 @@ namespace LevelDesign.UI {
         public bool requestInput;
         public bool requestCursor;
 
+        private Coroutine requestCursorRoutine;
+        private Coroutine requestInputRoutine;
+
         void OnEnable()
         {
-            if(requestCursor) { CursorStateManager.Instance.RequestUnlock(this); }
-            if(requestInput) { InputAuthManager.Instance.RequestInput(this); }
+            if(requestCursor) { requestCursorRoutine = _WhenCursorStateManagerReady(() => CursorStateManager.Instance.RequestUnlock(this)); }
+            if(requestInput) { requestInputRoutine = _WhenInputAuthManagerReady(() => InputAuthManager.Instance.RequestInput(this)); }
         }
 
         void OnDisable()
         {
-            if(requestCursor) { CursorStateManager.Instance.RelinquishRequest(this); }
-            if(requestInput) { InputAuthManager.Instance.RelinquishRequest(this); }
+            if(requestCursorRoutine != null)
+            {
+                StopCoroutine(requestCursorRoutine);
+                requestCursorRoutine = null;
+            }
+
+            if(requestInputRoutine != null)
+            {
+                StopCoroutine(requestInputRoutine);
+                requestInputRoutine = null;
+            }
+
+            if(requestCursor && CursorStateManager.Instance != null) { CursorStateManager.Instance.RelinquishRequest(this); }
+            if(requestInput && InputAuthManager.Instance != null) { InputAuthManager.Instance.RelinquishRequest(this); }
         }
     }
 }

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2f85fad8cb9ed8c4da7c642f5c49e5fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Editor/Folders/ColoredFoldersWindow.cs
+  uploadId: 878536

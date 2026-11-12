@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8ea2272aba2f7d74cbe3f67ae8faaf83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Attributes/InlineDrawerAttribute.cs
+  uploadId: 878536

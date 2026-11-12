@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5bae12e4cc6ae624986bd2fb709cc90d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Licences.md
+  uploadId: 878536

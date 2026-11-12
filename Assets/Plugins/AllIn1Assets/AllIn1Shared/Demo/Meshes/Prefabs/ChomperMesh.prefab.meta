@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 32065d03744540c386adf1685adc7bf0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/Demo/Meshes/Prefabs/ChomperMesh.prefab
+  uploadId: 1035260

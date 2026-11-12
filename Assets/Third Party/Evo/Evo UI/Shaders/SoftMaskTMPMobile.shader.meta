@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4c9c40d719e595a41ac28af88939986e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310303
+  packageName: Evo UI - Modern UI Framework
+  packageVersion: 1.9.12
+  assetPath: Assets/Evo/Evo UI/Shaders/SoftMaskTMPMobile.shader
+  uploadId: 994880

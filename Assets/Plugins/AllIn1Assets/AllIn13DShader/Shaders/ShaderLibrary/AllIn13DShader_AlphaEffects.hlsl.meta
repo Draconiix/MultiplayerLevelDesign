@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 75e66c181b3a90042ad111c9955c6da6
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_AlphaEffects.hlsl
+  uploadId: 1035260

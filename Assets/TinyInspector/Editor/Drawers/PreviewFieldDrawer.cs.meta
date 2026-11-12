@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 78aeac63a0022ef4aba19a39342def11
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 346340
+  packageName: Tiny Inspector - Powerful Inspector Toolkit
+  packageVersion: 1.1.0a
+  assetPath: Assets/TinyInspector/Editor/Drawers/PreviewFieldDrawer.cs
+  uploadId: 878536

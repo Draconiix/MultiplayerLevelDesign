@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7cebdcd58fba948952cf01fc692729, type: 3}
+  m_Name: BaseCharacterData
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDesign.Data.CharacterDataSO
+  gameplayController: {fileID: 461546148949282741, guid: f82a5ad0e3284487991e2265a54ee163, type: 3}
+  thirdPersonVisuals: {fileID: 3254991913533352993, guid: c6d77a0729f48f203bde88d0b46a7bd9, type: 3}
+  firstPersonArms: {fileID: 3930966425293775012, guid: da0514195a81485c78c97dfb5a329d3f, type: 3}

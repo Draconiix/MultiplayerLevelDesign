@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8e3b02d95af7461cb824f06d9a15c3e7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/Demo/Meshes/Prefabs/ScreenRobot.prefab
+  uploadId: 1035260

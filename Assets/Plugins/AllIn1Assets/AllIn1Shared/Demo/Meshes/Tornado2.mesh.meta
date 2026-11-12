@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4768069c926ad40418196512378f35cd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/Demo/Meshes/Tornado2.mesh
+  uploadId: 1035260

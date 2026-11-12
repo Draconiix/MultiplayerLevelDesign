@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a0c7c05c49dc6744abdba304694905e6
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 316173
+  packageName: All In 1 3D-Shader
+  packageVersion: 2.8
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn13DShader/Shaders/ShaderLibrary/AllIn13DShader_ShaderFeatures.hlsl
+  uploadId: 1035260

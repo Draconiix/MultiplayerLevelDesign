@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba8c2ce58d2c9ac4d8dc22a6bbae3702, type: 3}
   m_Name: InputFilter.Settings
   m_EditorClassIdentifier: Assembly-CSharp::LevelDesign.Data.InputFIlterSO
-  filterVal: 500
+  filterVal: 999
