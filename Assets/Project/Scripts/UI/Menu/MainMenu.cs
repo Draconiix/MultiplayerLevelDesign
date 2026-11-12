@@ -203,6 +203,7 @@ namespace LevelDesign.UI {
                 isConnecting = false;
 
                 if(menuState != MenuState.Lobby && menuState != MenuState.HostedLobby) {
+                    lobbyCode.text = transport.roomName;
                     TransitionToLobby();
                 }
                 return;
@@ -261,7 +262,7 @@ namespace LevelDesign.UI {
         public void ConnectClient() {
             if(isConnecting) { return; }
 
-            string roomCode = inputText.text.Replace("\u200B", "").Trim();
+            string roomCode = inputText.text.Replace("\u200B", "").Trim().ToUpper();
 
             if(string.IsNullOrEmpty(roomCode)) {
                 ToastController.Instance.Notify("No Available Code");
